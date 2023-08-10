@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Example</title>
+        <link rel="stylesheet" type="text/css" href="./SIT120-1.1P.css" />
+    </head>
+
+    <body>
+        <p>This is where you will include the text and images in your web page.</p>
+
+        <p>This is a paragraph of <b>Bold</b> , <i>Italic</i> and <u>Underline</u> text.</p>
+        <p>This is another paragraph with <a href="SIT120-1.1P.html">a link</a>.</p>
+        <p>The lists are in the next line (br)</p>
+        <br>
+        <p>This is an unordered list:</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+        <p>This is another unordered list using other shapes:</p>
+        <ul>
+            <li style="list-style-type: circle;">Item 1, Circle</li>
+            <li style="list-style-type: square;">Item 2, Square</li>
+            <li style="list-style-type: disc;">Item 3, Disc</li>
+        </ul>
+        <p>This is an ordered list:</p>
+        <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Third</li>
+        </ol>
+        <p>This is another ordered list using other symbols:</p>
+        <ol>
+            <li type="A">First, Capital Letters</li>
+            <li type="a">Second, Lowercase Letters</li>
+            <li type="I">Third, Capital Roman numerals</li>
+            <li type="i">Fourth, Lowercase Roman numerals</li>
+            <li type="1">Fifth, Numbers</li>
+        </ol>
+        <br>
+        <h1>This is a Heading 1</h1>
+        <p>This is some content under Heading 1.</p>
+        
+        <h2>This is a Heading 2</h2>
+        <p>This is some content under Heading 2.</p>
+        
+        <h3>This is a Heading 3</h3>
+        <p>This is some content under Heading 3.</p>
+        
+        <h4>This is a Heading 4</h4>
+        <p>This is some content under Heading 4.</p>
+        
+        <h5>This is a Heading 5</h5>
+        <p>This is some content under Heading 5.</p>
+        
+        <h6>This is a Heading 6</h6>
+        <p>This is some content under Heading 6.</p>
+
+        <h7>This is a Heading 7</h7>
+        <p>This is some content under Heading 7.</p>
+        <br>
+         <!-- This is a comment. It won't be displayed on the webpage. -->
+    
+        <h1>This is a Heading</h1>
+        <p>Can you see the code comments?.</p>
+        
+        <!--
+            This is a multi-line comment.
+            It can span multiple lines and is useful for providing detailed explanations.
+        -->
+        <br>
+        <h1>Images Example</h1>
+        
+        <p>This is a single image.</p>
+        <img src="image.png">
+        
+        <p>This is an image with attributes.</p>
+        <img src="image.png" width="300" height="200">
+        <br>
+        <h1>Example "Contact Us"</h1>
+    
+        <p>If you have any questions, feel free to <a href="mailto:matthew.sutrisno03@gmail.com">email us</a>.</p>
+        <br>
+        <h1>Internal Anchor Links Example</h1>
+    
+        <p><a href="#section1">Jump to Section 1</a></p>
+        <p><a href="#section2">Jump to Section 2</a></p>
+        <p><a href="#section3">Jump to Section 3</a></p>
+        <p><a href="#section4">Jump to Section 4</a></p>
+        
+        <h2 id="section1">Section 1</h2>
+        <p>This is the content of section 1.</p>
+        <br>
+        <h2 id="section2">Section 2</h2>
+        <p>This is the content of section 2.</p>
+        <br>
+        <h2 id="section3">Section 3</h2>
+        <p>This is the content of section 3.</p>
+        <br>
+        <h2 id="section4">Section 24</h2>
+        <p>This is the content of section 4.</p>
+        <br>
+        <form method="post" action="script_url">
+            <h2>Form</h2>
+             <!--
+            The name attribute is used to identify the text box to the processing script.
+
+            The value attribute is used to specify the text that will initially appear in the text box.
+
+            The size attribute is used to define the size of the box in characters.
+
+            The maxlength attribute is used to define the maximum number of characters that can be typed in the box.
+            -->
+            First Name: <input type="text" name="firstname" value="first name" size="20" maxlength="15">
+            <br>
+            Last Name: <input type="text" name="firstname" value="first name" size="20" maxlength="15">
+            <br>
+            <b>Radio Buttons - Size: </b>
+            <input type="radio" name="size" value="large">Large
+            <input type="radio" name="size" value="medium">Medium
+            <input type="radio" name="size" value="small">Small
+            <br>
+            <b>Checkboxes - Color: </b>
+            <input type="checkbox" name="color" value="Red">Red
+            <input type="checkbox" name="color" value="Blue">Blue
+            <input type="checkbox" name="color" value="Yellow">Yellow
+            <br>
+            <b>Drop-down Menu - Fruit</b>
+            <select>
+                <option value="mangoes">mangoes</option>
+                <option value="papaya">papaya</option>
+                <option value="gauva">gauva</option>
+                <option value="banana">banana</option>
+                <option value="pineapple">pineapple</option>
+            </select>
+            <input type="submit" value="Buy Now!">
+            <input type="reset" value="Reset">
+            <br>
+        </form>
+        <br>
+        <table>
+            <!-- First Row -->
+            <tr>
+                <td>Top Left</td>
+                <td>Top Middle</td>
+                <td>Top Right</td>
+            </tr>
+            <!-- Second Row -->
+            <tr>
+                <td>Middle Left</td>
+                <td>Middle Middle</td>
+                <td>Middle Right</td>
+            </tr>
+            <!-- Third Row -->
+            <tr>
+                <td>Bottom Left</td>
+                <td>Bottom Middle</td>
+                <td>Bottom Right</td>
+            </tr>
+        </table>
+        <br>
+    </body>
+</html>

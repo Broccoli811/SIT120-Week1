@@ -1,0 +1,29 @@
+p {
+    margin-left: 5em;
+    margin-right: 5em;
+    color: blue;
+}
+
+h1 {
+    color: green;
+}
+
+h2 {
+    color: turquoise;
+}
+
+h3 {
+    color: crimson;
+}
+
+h4 {
+    color: maroon;
+}
+
+ol {
+    margin-left: 10em;
+}
+
+ul {
+    margin-right: 10em;
+}
